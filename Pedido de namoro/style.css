@@ -1,24 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-  display: flex;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+    display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  background-color: #faa2c1;
+  border-block: 8px dashed #e640678f;
+
 }
 
 .container {
   text-align: center;
 }
 
-.pedido {
-  font-size: 24px;
-  margin-bottom: 20px;
+.img-container{
+  position: relative;
 }
+
+img{
+  width: 300px;
+}
+
+.pedido {
+  font-size: 30px;
+}
+
 
 button {
   font-size: 16px;
   padding: 10px 20px;
-  margin: 5px;
   cursor: pointer;
+  color: #e64066;
+  background-color: #fdfdf5; 
+  border: 0.5px solid black;
 }
